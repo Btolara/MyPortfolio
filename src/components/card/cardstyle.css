@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.portCard {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 400px;
+  padding: 10px;
+  /* background-color: yellow; */
+
+  /* flex-wrap: wrap; */
+}
+.portCard__box {
+  display: flex;
+  flex-direction: column;
+  border-radius: 13px;
+  min-width: 100%;
+  box-shadow: 6px 10px 15px rgba(0, 0, 0, 0.23);
+  /* background-color: green; */
+}
+.portCard__header {
+  /* filter: grayscale(10%); */
+  border-radius: 10px;
+  height: 210px;
+}
+
+.portCard__body {
+  width: 100%;
+  height: 190px;
+  border-radius: 10px;
+  /* background: pink; */
+}
+.portCard__body--title {
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0rem;
+  font-size: 20px;
+  color: #404040;
+  padding: 30px 30px 5px 30px;
+  margin: 0;
+  /* margin-left: 30px; */
+}
+.portCard__body--subtitle {
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.03rem;
+  font-size: 16px;
+  color: #707070;
+  padding: 15px 30px 10px 30px;
+  margin: 0;
+  /* margin-left: 30px; */
+}
+.portCard__body--info {
+  text-transform: initial;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.02rem;
+  font-size: 12px;
+  color: #505050;
+  padding: 0 30px 10px 30px;
+  margin: 0;
+  /* margin-left: 30px; */
+}
+.portCard__body--button {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  border-radius: 7px;
+  border-color: #03a0e9;
+  background-color: #006696;
+  margin-left: 30px;
+}
+.portCard__body--button h5 {
+  color: white;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.1rem;
+  margin: 0;
+  padding: 4px 0;
+}
+.portCard__body--button img {
+  width: 15px;
+  margin: 0;
+  padding: 4px 0;
+}
+/* h5 {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+  font-size: 1rem;
+  overflow: scroll;
+} */
